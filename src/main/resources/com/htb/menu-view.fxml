@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="25.0"
+      style="-fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #1a1a2e, #16213e);"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.htb.menu.MenuController">
+
+    <padding>
+        <Insets bottom="40.0" left="60.0" right="60.0" top="40.0"/>
+    </padding>
+
+    <Label text="HÍPER TACO BRONS" textFill="#e94560" wrapText="true">
+        <font>
+            <Font name="Monospaced Bold" size="42.0"/>
+        </font>
+    </Label>
+
+    <Label fx:id="highScoreLabel" textFill="#888888" wrapText="true">
+        <font>
+            <Font name="Monospaced" size="16.0"/>
+        </font>
+    </Label>
+
+    <Label text="Presiona enter para empezar" textFill="#a0c4ff" wrapText="true">
+        <font>
+            <Font name="Monospaced" size="20.0"/>
+        </font>
+    </Label>
+</VBox>

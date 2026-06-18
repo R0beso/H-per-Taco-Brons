@@ -1,0 +1,18 @@
+module com.htb {
+    requires javafx.controls;
+    requires javafx.fxml;
+    requires java.desktop;
+    requires jdk.httpserver;
+    requires java.logging;
+
+    opens com.htb to javafx.fxml;
+    opens com.htb.menu to javafx.fxml;
+    exports com.htb;
+    exports com.htb.game.core;
+    exports com.htb.game.entity;
+    exports com.htb.game.physics;
+    exports com.htb.game.level;
+    exports com.htb.game.render;
+    exports com.htb.tiktok;
+    exports com.htb.menu;
+}
